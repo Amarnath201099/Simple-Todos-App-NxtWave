@@ -1,0 +1,22 @@
+/* Write your CSS here */
+
+.eachTodoItem-style {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 13px;
+  font-weight: 500;
+  margin-right: 5px;
+}
+
+.deleteBtn {
+  background-color: transparent;
+  color: #ff0b37;
+  border: 2px solid #ff0b37;
+  border-radius: 10px;
+  outline: none;
+  padding: 5px 8px;
+}
