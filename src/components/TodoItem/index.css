@@ -10,13 +10,47 @@
   font-size: 13px;
   font-weight: 500;
   margin-right: 5px;
+  width: 55%;
 }
 
-.deleteBtn {
+.each-todo-Btn {
   background-color: transparent;
   color: #ff0b37;
   border: 2px solid #ff0b37;
   border-radius: 10px;
   outline: none;
   padding: 5px 8px;
+  font-size: 8px;
+}
+
+.edit-input-style {
+  border: 2px solid #ffc2a0;
+  border-radius: 5px;
+  padding: 6px;
+  font-size: 10px;
+  outline: none;
+}
+
+.each-todo-save-Btn {
+  background-color: #ffc2a0;
+  color: #ffffff;
+  border: 0px;
+  border-radius: 10px;
+  outline: none;
+  padding: 5px 8px;
+  font-size: 8px;
+}
+
+.todo-completed {
+  text-decoration: line-through;
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    width: 70%;
+  }
+
+  .each-todo-Btn {
+    font-size: 15px;
+  }
 }

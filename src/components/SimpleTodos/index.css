@@ -26,20 +26,59 @@
   padding: 0px;
 }
 
+.input-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.todo-input {
+  border: 2px solid #ffc2a0;
+  border-radius: 5px;
+  padding: 6px;
+  font-size: 10px;
+  outline: none;
+}
+
+.add-btn {
+  background-color: #ffc2a0;
+  color: #ffffff;
+  border: 0px;
+  border-radius: 8px;
+  outline: none;
+  padding: 5px 10px;
+  font-weight: 600;
+  font-size: 13px;
+}
+
 @media screen and (min-width: 768px) {
   .bg-container {
     padding: 50px;
   }
+
   .todoListItems {
     width: 80%;
   }
   .heading {
     font-size: 40px;
   }
+
   .title {
     font-size: 20px;
   }
+
   .deleteBtn {
     font-size: 20px;
+  }
+
+  .todo-input {
+    font-size: 18px;
+    width: 45%;
+  }
+
+  .add-btn {
+    font-size: 18px;
+    padding: 10px 15px;
   }
 }
